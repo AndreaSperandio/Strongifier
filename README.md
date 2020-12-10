@@ -1,2 +1,2 @@
 # Strongifier
-Riceve in un'area di testo le stringhe con i grassetti e manda in uscita su clipboard lo stesso testo con i grassetti racchiusi tra tag <strong></strong>.
+Riceve un documento .docx con alcuni testi in grassetto. Genera un documento.docx con i testi in grassetto racchiusi tra tag <strong></strong>.
