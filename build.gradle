@@ -9,6 +9,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+	id 'com.github.johnrengelman.shadow' version '6.1.0'
 }
 
 repositories {
@@ -29,4 +30,10 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'view.MainView'
+    }
 }

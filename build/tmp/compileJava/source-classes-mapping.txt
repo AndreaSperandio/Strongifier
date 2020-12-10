@@ -1,2 +1,13 @@
+view/util/STLocalizator.java
+ view.util.STLocalizator
+view/util/STMessage.java
+ view.util.STMessage
+view/util/STResource.java
+ view.util.STResource
+view/MainView.java
+ view.MainView
+ view.MainView$1
 view/component/STButton.java
  view.component.STButton
+view/util/STColor.java
+ view.util.STColor
