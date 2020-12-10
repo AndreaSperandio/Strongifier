@@ -68,6 +68,7 @@ public class MainView extends JFrame {
 		this.setSize(dimension);
 		this.setPreferredSize(dimension);
 		// this.setExtendedState(Frame.MAXIMIZED_BOTH);
+		this.setIconImages(STResource.getLogoIcons());
 		this.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 		this.addWindowListener(new WindowAdapter() {
 			@Override
